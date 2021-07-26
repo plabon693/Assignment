@@ -1,4 +1,6 @@
-// Kilometer to Meter Convert 
+//https://github.com/plabon693/Assignment
+
+// Problem 1: Kilometer to Meter Convert 
 function kilometerToMeter(kilometer){
     let meter = kilometer*1000;
     let result = Math.round(meter);
@@ -7,7 +9,7 @@ function kilometerToMeter(kilometer){
 let KiloToMeter = kilometerToMeter(50);
 console.log(KiloToMeter);
 
-//Budget Calculator
+//Problem 2: Budget Calculator
 function budgetCalculator(watch,phone,laptop){
     let priceOfWatch = watch * 50;
     let priceOfPhone = phone * 100;
@@ -20,7 +22,7 @@ function budgetCalculator(watch,phone,laptop){
 let totalBudget = budgetCalculator(2,3,7);
 console.log(totalBudget);
 
-// Hotel Cost Calculator
+// Problem 3: Hotel Cost Calculator
 function hotelCost(numberOfDays){
     let rent = 0;
     if(numberOfDays<=10){
@@ -48,7 +50,7 @@ function hotelCost(numberOfDays){
 let totalRent = hotelCost(100);
 console.log(totalRent);
 
-// largest name of friend.
+// Problem 4: largest name of friend.
 function megaFriend(friendsName){
     let element = 0;
     let largest;
